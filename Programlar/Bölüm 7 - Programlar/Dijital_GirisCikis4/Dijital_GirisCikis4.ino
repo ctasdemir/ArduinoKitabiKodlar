@@ -25,7 +25,7 @@ void setup() {
 }
 void loop() {
   // buton durumunu okuyup ilgili değişkene atıyoruz
-  int OkunanDurum = ButonOku(butonPin);
+  okunanDurum = ButonOku(butonPin);
 
   //okunanDurum değişkeninin değerine göre LED durumunu değiştiriyoruz
   if (okunanDurum == 1)
